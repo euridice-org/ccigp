@@ -1,0 +1,11 @@
+{
+ "name": "euridice.template",
+ "version": "0.1",
+ "type": "fhir.template",
+ "license": "CC0-1.0",
+ "description": "Template for use within the euridice project, based on the HL7 FHIR standard.",
+  "base": "fhir.base.template",
+  "dependencies": {
+    "fhir.base.template": "current"
+  }
+}
