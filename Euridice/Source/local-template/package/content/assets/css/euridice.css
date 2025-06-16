@@ -1,0 +1,198 @@
+:root {
+	--ig-status-text-color: #8222B8;
+/*	--toc-box-bg-color: rgba(255,255,255, 0.6); 
+	--toc-box-border: 1px solid #8222B8; */
+	--footer-bg-color: #ffffff; /* 3. Footer background color*/
+	--footer-nav-bg-color: #ffffff;
+	--footer-container-bg-color: #8222B8;
+	--footer-text-color: #ffffff;
+	--breadcrumb-bg-color: #ffffff;
+	--ig-header-color: #ffffff; /* 21. Header color (sides) */
+    --ig-header-container-color: #ffffff;
+    --stripe-bg-color: #ffffff;
+	--navbar-bg-color: #8222B8;
+	--btn-hover-color: #1775FF;  /* 6. Menu button hover color */
+    --btn-active-color: #8222B8; /* 7. Menu button active color */
+    --btn-text-color: #ffffff; /* 8. Menu button text color */
+    --btn-gradient-start-color: #8222B8; /* 9. Menu item gradient start color */
+    --btn-gradient-end-color: #8222B8; /* 10. Menu item gradient end  color */
+    --btn-gradient-start-color-alpha: #8222B8; /* 11. Menu item gradient start color (with alpha) */
+    --btn-gradient-end-color-alpha: #8222B8;
+	}
+	
+	.markdown-toc {
+		display: none;
+	  }
+
+	 
+	#ig-status::before {
+		content: '';
+		position: absolute;
+		top: 0px;
+		left: 24px;
+		height: 65px;
+		width: 100px;
+		background-image: url('../images/lantern.png');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center top;
+
+	}
+
+
+	html, body {
+		width: 100%;
+		height: 100%;
+		padding: 0;
+		margin: 0;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 1.5rem;
+		overflow: auto;
+		-webkit-tap-highlight-color: transparent;
+		--focus-outline: 0.125rem solid rgb(59, 153, 252);
+	
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: bold;
+	}
+	
+	h3 {
+		font-size: larger;
+	}
+	
+	h4 {
+		font-size: large;
+	}
+	
+	h5 {
+		font-size: medium;
+	}
+
+	h6 {
+		font-size: medium;
+	}
+	
+	body, p,
+	li {
+	  font-size: 15px;
+	  line-height: 1.4em;
+	}
+
+	td, tr {
+		font-size: 14px;
+		line-height: 1.4em;
+	}
+	
+	ul.dict li {
+		font-size: 15px;
+		line-height: 1.4em;
+	  }
+	  
+	  table.dict td {
+		font-size: 15px;
+		line-height: 1.4em;
+	  }
+	  
+	  table.dict p {
+		font-size: 15px;
+	  }
+	  
+	  table.dict td.structure {
+		font-size: 15px;
+		line-height: 1.4em;
+	  }
+	  
+	  table.codes td {
+		font-size: 15px;
+	  }
+	  
+	  table.grid th {
+		font-size: 15px;
+	  }
+	  
+	  table.grid td {
+		font-size: 15px;
+	  }
+	
+	  div.sidebar h2 {
+		font-size: 15px;
+	  }
+	  
+	  div.sidebar p {
+		font-size: 13px;
+	  }
+	  
+	  div.sidebar ul {
+		font-size: 13px;
+	  }
+	  
+	  div.sidebar li {
+		font-size: 13px;
+	  }
+	  pre.spec {
+		font-size: 15px;
+	  }
+	  
+	  pre.json {
+		font-size: 15px;
+	  }
+	  
+	  pre.rdf {
+		font-size: 15px;
+	  }
+	  
+	  pre.fhirpath {
+		font-size: 13px;
+	  }
+	  
+	  pre.graphql {
+		font-size: 13px;
+	  }
+	  
+	  pre.xml {
+		font-size: 12pt;
+	  }
+	  
+	
+	  
+	
+	  
+	  ul.navtop a {
+		font-size: 15px;
+	  }
+	  
+	  ul.navtop span {
+		font-size: 15px;
+	  }
+	  
+	  div.sidebar p.note {
+		font-size: 13px;
+	  }
+	  
+	  div.itoc p {
+		font-size: 13px;
+	  }
+	  
+	  div.itoc p.link {
+		font-size: 13px;
+	  }
+	  
+	  .hierarchy {
+		font-size: 13px;
+	  }
+	  
+	  tr.hierarchy {
+		font-size: 13px;
+	  }
+	  
+	  table.lmap th {
+		font-size: 13px;
+		line-height: 1.4em;
+	  }
+	  
+	  table.lmap td {
+		font-size: 13px;
+	  }
