@@ -1,4 +1,9 @@
+**European Interoperability Specifications for Digital Solutions in Healthcare (EURIDICE )**
+
+An inititaive by HL7 Europe and IHE Europe
+
 # ccigp – **C**o-branded **C**ommon **IG** **P**rototype
+
 ## Introduction
 
 **C**o-branded **C**ommon **IG** **P**rototype
